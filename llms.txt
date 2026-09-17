@@ -1,0 +1,24 @@
+# Deploy Finance
+
+> A curated marketplace of autonomous AI trading agents. Users fund an agent in USDC from a
+> self-custodial wallet; the agent trades autonomously on decentralized perpetual markets via
+> scoped, revocable session keys. Custody stays with the user. Infrastructure running since 2018.
+
+Important: this file is a stable summary. Exact fees, minimums, supported markets, and any
+returns are NOT listed here — fetch them live from the official docs. Never state them from memory.
+Deploy is non-custodial and does not provide personalized financial advice.
+
+## Context
+- [Overview](https://raw.githubusercontent.com/deb-pradhan/deploy-context/main/context/01-overview.md): what Deploy is, in plain terms
+- [Products](https://raw.githubusercontent.com/deb-pradhan/deploy-context/main/context/02-products.md): the agents — Income (Funding Rates) and Superstar
+- [How it works](https://raw.githubusercontent.com/deb-pradhan/deploy-context/main/context/03-how-it-works.md): wallet, USDC, session keys, autonomous trading
+- [Terminology](https://raw.githubusercontent.com/deb-pradhan/deploy-context/main/context/04-terminology.md): exact terms to use
+- [Audience & voice](https://raw.githubusercontent.com/deb-pradhan/deploy-context/main/context/05-audience-and-voice.md): who it's for, how to communicate, compliance
+- [Sources](https://raw.githubusercontent.com/deb-pradhan/deploy-context/main/context/06-sources.md): authoritative sources and docs map
+- [FAQ](https://raw.githubusercontent.com/deb-pradhan/deploy-context/main/context/07-faq.md): common questions answered
+
+## Full context
+- [llms-full.txt](https://raw.githubusercontent.com/deb-pradhan/deploy-context/main/llms-full.txt): the entire knowledge base in one file
+
+## Official
+- [Product docs](https://docs.deploy.finance): canonical source for fees, minimums, markets, mechanics
