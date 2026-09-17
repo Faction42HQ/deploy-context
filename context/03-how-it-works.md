@@ -21,3 +21,11 @@ The docs cover agent **lifecycle** (start, monitor, adjust, stop), **safety**,
 **troubleshooting**, risk, and an **MCP integration** guide. Pull specifics live from
 https://docs.deploy.finance (Guides). Transparency about **where the yield comes from** and
 the risks is core to how Deploy communicates.
+
+## Technical stack (stable facts; verify specifics in the docs)
+- **Execution:** agents trade on **Hyperliquid**, a decentralized exchange. Every trade is on-chain and publicly viewable.
+- **Wallets:** non-custodial, generated via **Privy**; keys are exportable by the user.
+- **Currency:** USDC only, for funding and settlement.
+- **Costs:** no subscription or management fees (verify current fee details in the docs).
+- **Minimums & markets** differ by agent (Income vs Superstar) — **see https://docs.deploy.finance for current figures.**
+- **Reminder:** delta-neutrality reduces directional exposure; it does **not** guarantee positive returns.

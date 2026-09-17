@@ -18,7 +18,8 @@ live in [`context/`](./context/).
 
 ## How to use it well
 - Ground every product statement in this repo or the live docs (https://docs.deploy.finance).
-  If neither confirms it, do not publish it.
+  If neither confirms it, do not publish it. For any technical or user question, fetch the docs'
+  live full-text index: https://docs.deploy.finance/llms-full.txt (or the specific page via /llms.txt).
 - **Never quote exact numbers (fees, minimums, returns, supported markets) from memory** —
   pull them live from the docs. This repo intentionally omits volatile figures.
 - Keep terminology exact: "delta-neutral", "perpetual funding rates", "session keys",
