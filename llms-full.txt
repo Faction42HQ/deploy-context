@@ -33,78 +33,82 @@ Guidance for any AI agent that loads this repository to represent or reason abou
 
 # Deploy Finance — Overview
 
-**Deploy Finance is a curated marketplace of autonomous AI trading agents.**
+**Deploy makes capital productive. Digital dollars that earn by default — while staying
+liquid, composable, and usable across DeFi.**
 
-A user picks an agent, funds it in **USDC** from their own **self-custodial wallet**,
-and the agent trades autonomously on **decentralized perpetual (perp) markets**. The
-user grants the agent **scoped, revocable session keys** to trade on their behalf —
-**custody of funds always stays with the user**. Deploy never takes custody.
+Idle balances are the old default. Deploy is the upgrade: you deposit USDC, and it goes to
+work automatically, earning continuously without leaving your control. Deploy is
+**non-custodial** — you keep your keys; your capital is never handed over.
 
-The team's execution infrastructure has been running since **2018**.
+Under the hood, deposited capital is put to work by **autonomous agents** that trade
+**decentralized perpetual (perp) markets** — most notably capturing **perpetual funding
+rates** with a **market-neutral** strategy. You grant the agent **scoped, revocable session
+keys**; custody of funds stays with you the whole time. The execution infrastructure has run
+since **2018**.
 
 ## The one-sentence version
-Deploy lets anyone deploy a professional-grade, autonomous trading agent against
-decentralized perp markets, funded in USDC, without giving up custody of their assets.
+Deploy turns idle digital dollars into productive capital — deposit USDC and earn by
+default, liquid and non-custodial, with autonomous agents doing the work.
 
 ## Why it matters
-- **Non-custodial by design** — funds stay in the user's wallet; permission is granted
-  through revocable session keys, not by transferring assets.
-- **Autonomous** — agents execute strategies continuously without the user hand-trading.
-- **Curated** — a marketplace of vetted agent strategies rather than a build-it-yourself tool.
+- **Productive by default** — capital earns continuously instead of sitting still.
+- **Non-custodial** — you keep custody; permission is granted via revocable session keys, not by handing over assets.
+- **Liquid & composable** — digital dollars that stay usable across DeFi.
+- **Infrastructure, not a product pitch** — execution that has run since 2018.
 
 ## What Deploy is *not*
-- Not a custodial exchange or a fund that holds user assets.
+- Not a custodial exchange or a fund that holds your assets — it is **non-custodial**.
 - Not personalized financial advice.
-- Not a guarantee of returns. All trading carries risk (see Risks in the docs).
+- Not a guarantee of returns. Earning capital still carries risk (see Risks in the docs).
 
 ---
 
-# Products — the Agents
+# Products — how capital earns
 
-Deploy's products are **agents**: autonomous strategies a user funds and runs. The
-two agent families:
+You deposit USDC; **autonomous agents** put it to work. Two agent families:
 
-## Income (Funding Rates)
-- **Market-neutral / delta-neutral** strategy.
-- Earns primarily from **perpetual funding rates** rather than from price direction.
-- Aimed at users who want yield with reduced exposure to market direction.
+## Income (Funding Rates) — the earn-by-default core
+- **Market-neutral / delta-neutral**: structured to minimize exposure to price direction.
+- Earns primarily from **perpetual funding rates**, not from calling the market.
+- The heart of the "productive capital" promise: digital dollars that **earn by default** while staying liquid.
 
-## Superstar
-- **Directional** strategies — takes positions on market direction.
-- Aimed at users seeking directional upside (with correspondingly different risk).
+## Superstar — directional
+- **Directional** strategies that take positions on market direction.
+- Higher potential upside with a correspondingly different risk profile than Income.
 
 ## Choosing and pricing
 - The docs' **how-to-choose** guide compares agents by goal and risk profile.
-- **Fees, minimums, and supported markets are in the live docs** — do not state them
-  from memory. See https://docs.deploy.finance (Products → fees / how-to-choose).
+- **Fees, minimums, supported markets, and any yield figures live in the docs** — never state
+  them from memory. See https://docs.deploy.finance (Products).
 
-> Keep the names exact: **Income (Funding Rates)** and **Superstar**. Do not invent
-> other product or feature names.
+> Keep names exact: **Income (Funding Rates)** and **Superstar**. Don't invent other names.
+> Don't imply Income is risk-free or promise a yield — earning still carries risk.
 
 ---
 
 # How It Works
 
 ## The flow
-1. **Connect a self-custodial wallet.** The user keeps their own keys and custody.
-2. **Fund an agent in USDC.** Capital is allocated to the chosen agent.
-3. **Grant session keys.** The user issues **scoped, revocable** trading permissions to
-   the agent — the agent can trade within those limits and nothing more.
-4. **The agent trades autonomously** on decentralized perpetual markets, executing its
-   strategy (funding-rate capture for Income, directional for Superstar).
-5. **Settlement is in USDC.** The user can monitor, adjust, or **revoke** at any time.
+1. **Connect a self-custodial wallet.** You keep your own keys and custody throughout.
+2. **Deposit USDC.** Your capital is allocated to the agent you choose.
+3. **Grant session keys.** You issue **scoped, revocable** permissions — the agent can trade
+   within those limits and nothing more. It can never move funds out of your custody.
+4. **Capital earns autonomously.** The agent works your deposit on decentralized perpetual
+   markets — funding-rate capture (Income) or directional (Superstar).
+5. **Stay liquid; settle in USDC.** Monitor, adjust, or **revoke** at any time.
 
 ## Key mechanics
-- **Self-custody:** funds never leave the user's control; Deploy is non-custodial.
-- **Session keys:** the permission model. Scoped (limited to trading actions) and
-  **revocable** (the user can withdraw permission at any time).
-- **Perpetual markets:** agents trade decentralized perps.
-- **USDC:** the funding and settlement currency.
+- **Non-custodial:** funds never leave your control; Deploy takes no custody.
+- **Session keys:** the permission model — **scoped** (trading only, within limits) and **revocable** (withdraw permission anytime).
+- **Perpetual markets:** where agents put capital to work.
+- **USDC:** the currency you deposit and settle in.
+- **Liquid & composable:** digital dollars that stay usable across DeFi.
 
-## Lifecycle & safety
-The docs cover agent **lifecycle** (start, monitor, adjust, stop), **safety**, and
-**troubleshooting**, plus an **MCP integration** guide for connecting Deploy to agent
-tooling. Pull specifics from https://docs.deploy.finance (Guides).
+## Safety, transparency, lifecycle
+The docs cover agent **lifecycle** (start, monitor, adjust, stop), **safety**,
+**troubleshooting**, risk, and an **MCP integration** guide. Pull specifics live from
+https://docs.deploy.finance (Guides). Transparency about **where the yield comes from** and
+the risks is core to how Deploy communicates.
 
 ---
 
@@ -114,40 +118,50 @@ Use these terms exactly. Precision here is a compliance and credibility matter.
 
 | Term | Meaning |
 |------|---------|
-| **Agent** | An autonomous trading strategy a user funds and runs on Deploy. |
-| **Income (Funding Rates)** | The market-neutral / delta-neutral agent family; earns from perpetual funding rates. |
+| **Productive capital** | Deploy's core idea: capital that earns by default instead of sitting idle. |
+| **Earn by default** | Deposited digital dollars are put to work automatically. |
+| **Deposit / depositor** | The user-facing action and audience — you deposit USDC to earn. |
+| **Digital dollars** | USDC balances that stay liquid and composable across DeFi. |
+| **Agent** | An autonomous strategy that puts deposited capital to work. |
+| **Income (Funding Rates)** | The market-neutral / delta-neutral agent; earns from perpetual funding rates. |
 | **Superstar** | The directional agent family. |
-| **Self-custodial / self-custody** | The user holds their own keys; funds never leave their control. Deploy is non-custodial. |
-| **Session keys** | Scoped, revocable permissions the user grants an agent to trade on their behalf. |
-| **Perpetual (perp) markets** | The decentralized derivatives markets agents trade. |
-| **Delta-neutral / market-neutral** | A position structured to minimize exposure to price direction. |
-| **Perpetual funding rate** | Periodic payments between long and short perp holders; the Income agent earns from these. |
-| **USDC** | The stablecoin used to fund agents and settle. |
+| **Self-custodial / non-custodial** | You hold your keys; funds never leave your control. Deploy takes no custody. |
+| **Session keys** | Scoped, revocable permissions granted to an agent to trade on your behalf. |
+| **Perpetual (perp) markets** | The decentralized derivatives markets agents use to earn. |
+| **Perpetual funding rate** | Periodic payments between long and short perp holders; Income earns from these. |
+| **Delta-neutral / market-neutral** | Structured to minimize exposure to price direction. |
+| **USDC** | The stablecoin you deposit and settle in. |
 
 ## Do not
-- Do not invent product or feature names beyond those above.
-- Do not soften "self-custodial", "scoped", or "revocable" — they are core claims.
-- Do not describe Deploy as an exchange, a fund, or custodial.
+- Don't call Deploy an exchange, a fund, or custodial. It is **non-custodial**.
+- Don't invent product or feature names beyond those above.
+- Don't imply "safe" means risk-free, and don't promise yield — earning carries risk.
 
 ---
 
-# Audience & Communication
+# Audiences & Voice
 
 ## Who Deploy is for
-Crypto-native users comfortable with self-custodial wallets and on-chain perps who want
-autonomous, strategy-driven trading without surrendering custody — ranging from
-yield-seekers (Income) to those wanting directional exposure (Superstar).
+1. **Institutional capital** — asset managers, hedge funds, market-makers, custodians,
+   exchanges, treasuries, payment companies, fintechs, and banks exploring tokenized cash.
+   They hold large balances that must stay **safe and liquid** but today earn nothing.
+2. **HNW individuals** — whales, founders, and sophisticated users who want digital dollars
+   that **earn by default** while remaining liquid, composable, and usable across DeFi.
+3. **Retail depositors** — the broad base of users depositing to earn.
 
-## How to communicate about Deploy
-- **Lead with custody and autonomy** — the differentiators: keep your keys, the agent does the work.
-- **Be precise, not hypey.** This is finance/crypto; exact, sober language builds trust.
-- **Specifics over adjectives.** Explain the mechanism (session keys, funding rates), not "revolutionary."
-- **Always pair opportunity with risk.** Never imply guaranteed returns.
+## Voice
+- **Direct, confident, grounded in real performance.** No hype, no jargon, no inflated claims.
+- **Premium and serious, but human.** Deploy speaks with the authority of **infrastructure**,
+  not a product trying to sell.
+- **Institutionally credible, accessible in delivery.**
+- **Always reinforcing** safety, transparency, and continuous performance.
+- **Decisive, not defensive.** Productive capital is the future; Deploy is the upgrade.
 
 ## Compliance (hard rules — override tone and growth goals)
-1. **No personalized financial or investment advice.** Educate; do not tell an individual what to do with their money.
-2. **No performance or return claims without a sourced, current figure** from the docs or official data.
-3. **Always honor risk disclosures.** Trading perps carries risk, including loss.
+1. **No personalized financial or investment advice.** Educate; don't tell an individual what to do with their money.
+2. **No performance or return claims without a current, sourced figure** from the docs or official data.
+3. **Always honor risk disclosures.** Earning on-chain carries risk, including loss. "Safe/liquid"
+   describes design intent (non-custodial, liquid), not a guarantee against loss.
 4. When a claim is sensitive or unverifiable, **flag it for human review** rather than publishing.
 
 ---
@@ -177,31 +191,33 @@ If a product statement is not confirmed by (1) or (2), do not publish it — esc
 # FAQ (for LLMs and agents)
 
 **What is Deploy Finance?**
-A curated marketplace of autonomous AI trading agents. Users fund an agent in USDC from a
-self-custodial wallet; the agent trades autonomously on decentralized perpetual markets via
-scoped, revocable session keys. Custody stays with the user.
+Deploy makes capital productive: you deposit USDC and it earns by default while staying liquid,
+composable, and non-custodial. Under the hood, autonomous agents put the capital to work on
+decentralized perpetual markets (e.g. capturing funding rates), with custody staying with you.
+
+**How does my money earn?**
+Deposited USDC is worked by an autonomous agent — Income (market-neutral, earns perpetual
+funding rates) or Superstar (directional). You grant scoped, revocable session keys; the agent
+trades within those limits only.
 
 **Does Deploy hold my funds?**
-No. Deploy is non-custodial. Funds stay in the user's self-custodial wallet; the agent
-trades via revocable session keys and never takes custody.
+No. Deploy is non-custodial. Funds stay in your self-custodial wallet; the agent trades via
+revocable session keys and never takes custody.
 
-**What agents are available?**
-Two families: **Income (Funding Rates)** — market-neutral, earns from perpetual funding
-rates; and **Superstar** — directional strategies.
+**Is it safe? Are returns guaranteed?**
+Deploy is non-custodial and designed to keep capital liquid — but earning on-chain carries risk,
+including loss, and **no returns are guaranteed**. Deploy does not give personalized financial
+advice. See Risks in the docs.
 
-**What can the agent do with my wallet?**
-Only what the **scoped session keys** permit — trading within set limits. Permissions are
-**revocable** at any time.
+**Who is it for?**
+Institutional capital, HNW individuals, and retail depositors who want digital dollars that earn
+by default while staying liquid and usable across DeFi.
 
 **What currency is used?**
-USDC, for both funding and settlement.
+USDC, for both deposits and settlement.
 
-**What are the fees / minimums / supported markets?**
-See the live docs at https://docs.deploy.finance — these are not quoted here to stay accurate.
-
-**Is this financial advice / are returns guaranteed?**
-No. Deploy does not provide personalized financial advice, and no returns are guaranteed.
-All trading carries risk. See Risks in the docs.
+**What are the fees / minimums / yields / supported markets?**
+See the live docs at https://docs.deploy.finance — not quoted here to stay accurate.
 
 **How long has the infrastructure existed?**
 The execution infrastructure has been running since 2018.

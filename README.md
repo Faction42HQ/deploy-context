@@ -4,9 +4,10 @@ An **LLM-ready knowledge base about [Deploy Finance](https://docs.deploy.finance
 Connect this repo to any agent, LLM, or RAG pipeline and it can quickly learn what
 Deploy is and how to talk about it accurately.
 
-Deploy is a **curated marketplace of autonomous AI trading agents**: users fund an
-agent in USDC from a self-custodial wallet, and it trades autonomously on decentralized
-perpetual markets via scoped, revocable session keys. **Custody stays with the user.**
+Deploy **makes capital productive**: deposit USDC and it **earns by default** while staying
+liquid, composable, and **non-custodial**. Under the hood, autonomous agents put the capital
+to work on decentralized perpetual markets (e.g. capturing funding rates) via scoped, revocable
+session keys — **custody stays with the user**.
 
 ## For humans
 Read [`context/`](./context/) in order, or the single-file

@@ -1,31 +1,33 @@
 # FAQ (for LLMs and agents)
 
 **What is Deploy Finance?**
-A curated marketplace of autonomous AI trading agents. Users fund an agent in USDC from a
-self-custodial wallet; the agent trades autonomously on decentralized perpetual markets via
-scoped, revocable session keys. Custody stays with the user.
+Deploy makes capital productive: you deposit USDC and it earns by default while staying liquid,
+composable, and non-custodial. Under the hood, autonomous agents put the capital to work on
+decentralized perpetual markets (e.g. capturing funding rates), with custody staying with you.
+
+**How does my money earn?**
+Deposited USDC is worked by an autonomous agent — Income (market-neutral, earns perpetual
+funding rates) or Superstar (directional). You grant scoped, revocable session keys; the agent
+trades within those limits only.
 
 **Does Deploy hold my funds?**
-No. Deploy is non-custodial. Funds stay in the user's self-custodial wallet; the agent
-trades via revocable session keys and never takes custody.
+No. Deploy is non-custodial. Funds stay in your self-custodial wallet; the agent trades via
+revocable session keys and never takes custody.
 
-**What agents are available?**
-Two families: **Income (Funding Rates)** — market-neutral, earns from perpetual funding
-rates; and **Superstar** — directional strategies.
+**Is it safe? Are returns guaranteed?**
+Deploy is non-custodial and designed to keep capital liquid — but earning on-chain carries risk,
+including loss, and **no returns are guaranteed**. Deploy does not give personalized financial
+advice. See Risks in the docs.
 
-**What can the agent do with my wallet?**
-Only what the **scoped session keys** permit — trading within set limits. Permissions are
-**revocable** at any time.
+**Who is it for?**
+Institutional capital, HNW individuals, and retail depositors who want digital dollars that earn
+by default while staying liquid and usable across DeFi.
 
 **What currency is used?**
-USDC, for both funding and settlement.
+USDC, for both deposits and settlement.
 
-**What are the fees / minimums / supported markets?**
-See the live docs at https://docs.deploy.finance — these are not quoted here to stay accurate.
-
-**Is this financial advice / are returns guaranteed?**
-No. Deploy does not provide personalized financial advice, and no returns are guaranteed.
-All trading carries risk. See Risks in the docs.
+**What are the fees / minimums / yields / supported markets?**
+See the live docs at https://docs.deploy.finance — not quoted here to stay accurate.
 
 **How long has the infrastructure existed?**
 The execution infrastructure has been running since 2018.

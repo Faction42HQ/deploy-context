@@ -1,19 +1,20 @@
 # Deploy Finance
 
-> A curated marketplace of autonomous AI trading agents. Users fund an agent in USDC from a
-> self-custodial wallet; the agent trades autonomously on decentralized perpetual markets via
-> scoped, revocable session keys. Custody stays with the user. Infrastructure running since 2018.
+> Deploy makes capital productive: deposit USDC and it earns by default while staying liquid,
+> composable, and non-custodial. Autonomous agents put the capital to work on decentralized
+> perpetual markets (e.g. capturing funding rates); custody stays with the user. Infrastructure
+> running since 2018.
 
 Important: this file is a stable summary. Exact fees, minimums, supported markets, and any
-returns are NOT listed here — fetch them live from the official docs. Never state them from memory.
-Deploy is non-custodial and does not provide personalized financial advice.
+yields/returns are NOT listed here — fetch them live from the official docs, never from memory.
+Deploy is non-custodial, does not give personalized financial advice, and guarantees no returns.
 
 ## Context
-- [Overview](https://raw.githubusercontent.com/deb-pradhan/deploy-context/main/context/01-overview.md): what Deploy is, in plain terms
-- [Products](https://raw.githubusercontent.com/deb-pradhan/deploy-context/main/context/02-products.md): the agents — Income (Funding Rates) and Superstar
-- [How it works](https://raw.githubusercontent.com/deb-pradhan/deploy-context/main/context/03-how-it-works.md): wallet, USDC, session keys, autonomous trading
+- [Overview](https://raw.githubusercontent.com/deb-pradhan/deploy-context/main/context/01-overview.md): productive capital — what Deploy is
+- [Products](https://raw.githubusercontent.com/deb-pradhan/deploy-context/main/context/02-products.md): how capital earns — Income (Funding Rates), Superstar
+- [How it works](https://raw.githubusercontent.com/deb-pradhan/deploy-context/main/context/03-how-it-works.md): deposit USDC, non-custodial session keys, autonomous earning
 - [Terminology](https://raw.githubusercontent.com/deb-pradhan/deploy-context/main/context/04-terminology.md): exact terms to use
-- [Audience & voice](https://raw.githubusercontent.com/deb-pradhan/deploy-context/main/context/05-audience-and-voice.md): who it's for, how to communicate, compliance
+- [Audiences & voice](https://raw.githubusercontent.com/deb-pradhan/deploy-context/main/context/05-audience-and-voice.md): institutional, HNW, retail depositors + voice + compliance
 - [Sources](https://raw.githubusercontent.com/deb-pradhan/deploy-context/main/context/06-sources.md): authoritative sources and docs map
 - [FAQ](https://raw.githubusercontent.com/deb-pradhan/deploy-context/main/context/07-faq.md): common questions answered
 
@@ -21,4 +22,4 @@ Deploy is non-custodial and does not provide personalized financial advice.
 - [llms-full.txt](https://raw.githubusercontent.com/deb-pradhan/deploy-context/main/llms-full.txt): the entire knowledge base in one file
 
 ## Official
-- [Product docs](https://docs.deploy.finance): canonical source for fees, minimums, markets, mechanics
+- [Product docs](https://docs.deploy.finance): canonical source for fees, minimums, markets, yields, mechanics

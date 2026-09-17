@@ -1,6 +1,6 @@
 ---
 name: deploy-context
-description: Deploy Finance product context — what Deploy is, its agent products (Income/Funding Rates, Superstar), wallets & session keys, terminology, audience, and where to get authoritative detail. Use before any task that references the product, a feature, fees, or audience.
+description: Deploy Finance product context — productive capital / digital dollars that earn by default; how deposits earn (Income funding-rates, Superstar directional), non-custodial session keys, audiences, terminology, and sources. Use before any task referencing the product, a feature, fees, or audience.
 metadata:
   hermes:
     tags: [deploy, product-context, company]

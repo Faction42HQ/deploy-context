@@ -4,17 +4,21 @@ Use these terms exactly. Precision here is a compliance and credibility matter.
 
 | Term | Meaning |
 |------|---------|
-| **Agent** | An autonomous trading strategy a user funds and runs on Deploy. |
-| **Income (Funding Rates)** | The market-neutral / delta-neutral agent family; earns from perpetual funding rates. |
+| **Productive capital** | Deploy's core idea: capital that earns by default instead of sitting idle. |
+| **Earn by default** | Deposited digital dollars are put to work automatically. |
+| **Deposit / depositor** | The user-facing action and audience — you deposit USDC to earn. |
+| **Digital dollars** | USDC balances that stay liquid and composable across DeFi. |
+| **Agent** | An autonomous strategy that puts deposited capital to work. |
+| **Income (Funding Rates)** | The market-neutral / delta-neutral agent; earns from perpetual funding rates. |
 | **Superstar** | The directional agent family. |
-| **Self-custodial / self-custody** | The user holds their own keys; funds never leave their control. Deploy is non-custodial. |
-| **Session keys** | Scoped, revocable permissions the user grants an agent to trade on their behalf. |
-| **Perpetual (perp) markets** | The decentralized derivatives markets agents trade. |
-| **Delta-neutral / market-neutral** | A position structured to minimize exposure to price direction. |
-| **Perpetual funding rate** | Periodic payments between long and short perp holders; the Income agent earns from these. |
-| **USDC** | The stablecoin used to fund agents and settle. |
+| **Self-custodial / non-custodial** | You hold your keys; funds never leave your control. Deploy takes no custody. |
+| **Session keys** | Scoped, revocable permissions granted to an agent to trade on your behalf. |
+| **Perpetual (perp) markets** | The decentralized derivatives markets agents use to earn. |
+| **Perpetual funding rate** | Periodic payments between long and short perp holders; Income earns from these. |
+| **Delta-neutral / market-neutral** | Structured to minimize exposure to price direction. |
+| **USDC** | The stablecoin you deposit and settle in. |
 
 ## Do not
-- Do not invent product or feature names beyond those above.
-- Do not soften "self-custodial", "scoped", or "revocable" — they are core claims.
-- Do not describe Deploy as an exchange, a fund, or custodial.
+- Don't call Deploy an exchange, a fund, or custodial. It is **non-custodial**.
+- Don't invent product or feature names beyond those above.
+- Don't imply "safe" means risk-free, and don't promise yield — earning carries risk.

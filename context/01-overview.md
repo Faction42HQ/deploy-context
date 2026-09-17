@@ -1,25 +1,29 @@
 # Deploy Finance — Overview
 
-**Deploy Finance is a curated marketplace of autonomous AI trading agents.**
+**Deploy makes capital productive. Digital dollars that earn by default — while staying
+liquid, composable, and usable across DeFi.**
 
-A user picks an agent, funds it in **USDC** from their own **self-custodial wallet**,
-and the agent trades autonomously on **decentralized perpetual (perp) markets**. The
-user grants the agent **scoped, revocable session keys** to trade on their behalf —
-**custody of funds always stays with the user**. Deploy never takes custody.
+Idle balances are the old default. Deploy is the upgrade: you deposit USDC, and it goes to
+work automatically, earning continuously without leaving your control. Deploy is
+**non-custodial** — you keep your keys; your capital is never handed over.
 
-The team's execution infrastructure has been running since **2018**.
+Under the hood, deposited capital is put to work by **autonomous agents** that trade
+**decentralized perpetual (perp) markets** — most notably capturing **perpetual funding
+rates** with a **market-neutral** strategy. You grant the agent **scoped, revocable session
+keys**; custody of funds stays with you the whole time. The execution infrastructure has run
+since **2018**.
 
 ## The one-sentence version
-Deploy lets anyone deploy a professional-grade, autonomous trading agent against
-decentralized perp markets, funded in USDC, without giving up custody of their assets.
+Deploy turns idle digital dollars into productive capital — deposit USDC and earn by
+default, liquid and non-custodial, with autonomous agents doing the work.
 
 ## Why it matters
-- **Non-custodial by design** — funds stay in the user's wallet; permission is granted
-  through revocable session keys, not by transferring assets.
-- **Autonomous** — agents execute strategies continuously without the user hand-trading.
-- **Curated** — a marketplace of vetted agent strategies rather than a build-it-yourself tool.
+- **Productive by default** — capital earns continuously instead of sitting still.
+- **Non-custodial** — you keep custody; permission is granted via revocable session keys, not by handing over assets.
+- **Liquid & composable** — digital dollars that stay usable across DeFi.
+- **Infrastructure, not a product pitch** — execution that has run since 2018.
 
 ## What Deploy is *not*
-- Not a custodial exchange or a fund that holds user assets.
+- Not a custodial exchange or a fund that holds your assets — it is **non-custodial**.
 - Not personalized financial advice.
-- Not a guarantee of returns. All trading carries risk (see Risks in the docs).
+- Not a guarantee of returns. Earning capital still carries risk (see Risks in the docs).
