@@ -10,16 +10,19 @@ yields/returns are NOT listed here — fetch them live from the official docs, n
 Deploy is non-custodial, does not give personalized financial advice, and guarantees no returns.
 
 ## Context
-- [Overview](https://raw.githubusercontent.com/deb-pradhan/deploy-context/main/context/01-overview.md): productive capital — what Deploy is
-- [Products](https://raw.githubusercontent.com/deb-pradhan/deploy-context/main/context/02-products.md): how capital earns — Income (Funding Rates), Superstar
-- [How it works](https://raw.githubusercontent.com/deb-pradhan/deploy-context/main/context/03-how-it-works.md): deposit USDC, non-custodial session keys, autonomous earning
-- [Terminology](https://raw.githubusercontent.com/deb-pradhan/deploy-context/main/context/04-terminology.md): exact terms to use
-- [Audiences & voice](https://raw.githubusercontent.com/deb-pradhan/deploy-context/main/context/05-audience-and-voice.md): institutional, HNW, retail depositors + voice + compliance
-- [Sources](https://raw.githubusercontent.com/deb-pradhan/deploy-context/main/context/06-sources.md): authoritative sources and docs map
-- [FAQ](https://raw.githubusercontent.com/deb-pradhan/deploy-context/main/context/07-faq.md): common questions answered
+- [Overview](https://raw.githubusercontent.com/Faction42HQ/deploy-context/main/context/01-overview.md): productive capital — what Deploy is
+- [Products](https://raw.githubusercontent.com/Faction42HQ/deploy-context/main/context/02-products.md): how capital earns — Income (Funding Rates), Superstar
+- [How it works](https://raw.githubusercontent.com/Faction42HQ/deploy-context/main/context/03-how-it-works.md): deposit USDC, non-custodial session keys, autonomous earning
+- [Terminology](https://raw.githubusercontent.com/Faction42HQ/deploy-context/main/context/04-terminology.md): exact terms to use
+- [Audiences & voice](https://raw.githubusercontent.com/Faction42HQ/deploy-context/main/context/05-audience-and-voice.md): institutional, HNW, retail depositors + voice + compliance
+- [Sources](https://raw.githubusercontent.com/Faction42HQ/deploy-context/main/context/06-sources.md): authoritative sources and docs map
+- [FAQ](https://raw.githubusercontent.com/Faction42HQ/deploy-context/main/context/07-faq.md): common questions answered
+
+## Brand
+- [Design system](https://raw.githubusercontent.com/Faction42HQ/deploy-context/main/brand/design-system.md): canonical v1.0 brand + design tokens (color, type, logo, layout, components) — use for any Deploy-branded surface
 
 ## Full context
-- [llms-full.txt](https://raw.githubusercontent.com/deb-pradhan/deploy-context/main/llms-full.txt): the entire knowledge base in one file
+- [llms-full.txt](https://raw.githubusercontent.com/Faction42HQ/deploy-context/main/llms-full.txt): the entire knowledge base in one file
 
 ## Official
 - [Product docs](https://docs.deploy.finance): canonical source for fees, minimums, markets, yields, mechanics

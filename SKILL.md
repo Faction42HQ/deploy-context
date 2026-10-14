@@ -26,3 +26,5 @@ live in [`context/`](./context/).
   "self-custodial". Do not invent feature names.
 - **Compliance overrides tone and growth goals:** no personalized financial advice; no
   performance/return claims without a sourced figure; always honor risk disclosures.
+- For any Deploy-branded visual or layout work, also load [`brand/design-system.md`](./brand/design-system.md)
+  (tokens are constraints) and use the logo files in `brand/assets/`.

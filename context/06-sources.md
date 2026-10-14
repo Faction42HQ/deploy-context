@@ -25,6 +25,7 @@ step-by-step user flows, troubleshooting, risks, and legal. Never state these fr
   session-key permissions, wallet types, funding-rate yield, backtests, fees.
 - **Safety & monitoring** — secure account, phishing, allocation risks, monitoring, planning withdrawals, troubleshooting.
 - **The two agents** — Income: Funding Rates (delta-neutral, funding spreads); Superstar (directional, long/short, leverage).
+- **Superstar overview** — https://docs.deploy.finance/products/agents/superstar/overview (canonical page for the Superstar agent: rename, stabilization window, markets, minimum, backtest).
 - **MCP Integration** — fund wallets, delegate agents, track yield, exit positions through Deploy's MCP; full tools reference for AI-assistant integration.
 - **Resources** — FAQ, risks, legal/disclaimers, terms, privacy, alternatives/comparisons (Ethena, 3Commas, GMX, Solstice…), contact.
 

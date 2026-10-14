@@ -7,6 +7,10 @@ Guidance for any AI agent that loads this repository to represent or reason abou
 2. The specific `context/*.md` you need.
 3. For anything volatile (fees, minimums, markets, returns): **fetch https://docs.deploy.finance live.**
 
+## Brand & design
+For any Deploy-branded visual or layout work (decks, pages, UI, social), load `brand/design-system.md`
+and treat its tokens as constraints. Use logos/symbol from `brand/assets/` — never redraw or recolor them.
+
 ## Grounding rules
 - Only make product claims confirmed by this repo or the live docs. If neither confirms it, don't say it.
 - **Do not quote exact numbers from memory.** This repo omits them deliberately; get them live.

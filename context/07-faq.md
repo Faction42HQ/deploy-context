@@ -31,3 +31,11 @@ See the live docs at https://docs.deploy.finance — not quoted here to stay acc
 
 **How long has the infrastructure existed?**
 The execution infrastructure has been running since 2018.
+
+**Did the Superstar agent change in September 2026?**
+The product name changed from **Super Perps to Superstar** in September 2026 — the agent
+you deploy did not change. See https://docs.deploy.finance/products/agents/superstar/overview.
+
+**Is Superstar still in a launch / stabilization window?**
+No. The 30-day post-launch stabilization window has ended; full sizing and the full market
+set are now unlocked.

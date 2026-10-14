@@ -24,7 +24,7 @@ Read [`context/`](./context/) in order, or the single-file
 ### Quick start (any LLM)
 Fetch and load the full context:
 ```
-https://raw.githubusercontent.com/deb-pradhan/deploy-context/main/llms-full.txt
+https://raw.githubusercontent.com/Faction42HQ/deploy-context/main/llms-full.txt
 ```
 
 ### Ground rules (short version)
@@ -45,6 +45,14 @@ https://raw.githubusercontent.com/deb-pradhan/deploy-context/main/llms-full.txt
 | [context/05-audience-and-voice.md](./context/05-audience-and-voice.md) | Who it's for + how to communicate + compliance |
 | [context/06-sources.md](./context/06-sources.md) | Authoritative sources & docs map |
 | [context/07-faq.md](./context/07-faq.md) | Common questions, answered |
+
+## Brand & design
+| File | What |
+|------|------|
+| [brand/design-system.md](./brand/design-system.md) | Canonical Deploy Design System v1.0 — color, type, logo, layout, components, tokens |
+| [brand/assets/](./brand/assets/) | Brand assets (logos, symbol, app icon) exported from the Figma brand guidelines |
+
+Brand assets mirror the [Deploy Agents Figma](https://www.figma.com/design/Gz3hxiXboj6eDSZNcBJRm1/Deploy-Agents?node-id=723-1817); where Figma and the markdown conflict, Figma wins for visual decisions and the markdown wins for tokens and copy rules.
 
 ## Updating
 This repo is the versioned source of truth. Edit a file, commit with a clear message,
